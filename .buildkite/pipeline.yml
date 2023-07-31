@@ -1,0 +1,6 @@
+steps:
+  - command: echo "hello"
+
+notify:
+  - email: "akash.kumar@sleevesup.com.au"
+    if: build.state == "passed"
